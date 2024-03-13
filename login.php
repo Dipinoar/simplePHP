@@ -38,9 +38,15 @@
 
 
     <form class="register-form" id="register-form">
-        <label for="register_username">Nombre de usuario:</label><br>
+        <label for="register_username">Nombre:</label><br>
         <input type="text" id="register_username" name="register_username" required><br><br>
         
+        <label for="register_lasname">Apellido:</label><br>
+        <input type="text" id="register_lasname" name="register_lastname" required><br><br>
+
+        <label for="register_correo">Correo Electrónico:</label><br>
+        <input type="email" id="register_email" name="register_email" required><br><br>
+
         <label for="register_password">Contraseña:</label><br>
         <input type="password" id="register_password" name="register_password" required><br><br>
         
